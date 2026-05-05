@@ -1,5 +1,8 @@
+import pygame
+from constants import SCREEN_WIDTH, SCREEN_HEIGHT
+
 def main():
-    print("Hello from bootdev-asteroid!")
+    print(f"Starting Asteroids with pygame version: {pygame.version.ver}\n Screen width: {SCREEN_WIDTH}\n Screen height: {SCREEN_HEIGHT}")
 
 
 if __name__ == "__main__":
